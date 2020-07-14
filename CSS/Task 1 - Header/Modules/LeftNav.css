@@ -1,0 +1,33 @@
+.left-nav{
+    display: flex;
+    animation: leftnav;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+@keyframes leftnav{
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+.left-nav input[type=text]{
+    background-color: #e3f6e5;
+    color: black;
+    padding: 8px;
+    border: none;
+    font-size: 17px;
+}
+
+.left-nav ::placeholder{
+    padding-left: 6px;
+}
+
+.left-nav button{
+    padding: 11px 15px;
+    background: #dad873;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}

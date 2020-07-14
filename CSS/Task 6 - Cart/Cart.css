@@ -1,0 +1,213 @@
+.cartcontainer{
+      margin-top: 200px;
+      margin-left: 50px;
+      margin-bottom: 100px;
+      width: auto;
+      height: auto;
+}
+
+.CartSeparator{
+      margin-top: 10px;
+      width: 25%;
+      animation: loading;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+}
+
+@keyframes loading{
+      0% {width: 0%;}
+      100%{width: 25%;}
+}
+
+.CartTitle{
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+}
+
+.cartRow{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+}
+
+.cartColumn{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 60%;
+      margin: 0;
+      padding: 0;
+}
+
+.cartColumn1{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 40%;
+      margin: 0;
+      padding: 0;
+}
+
+.itemscontainer{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      height: 200px;
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imagecontainer{
+      width: 40%;
+      float: left;
+      position: relative;
+      box-shadow: none;
+      height: 200px;
+}
+
+.cartimage{
+      position: absolute;
+      transition: .5s;
+      margin-top: 5px;
+      width: 90%;
+      height: 200px;      
+}
+
+.details{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 300;
+      line-height: 1.5em;
+      width: 40%;
+      float: left;
+      margin-top: 3%;
+      height: 110px;
+}
+
+.DetailsTitle{
+      font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.price{
+      margin-top: 2%;
+      width: 20%;
+      height: 110px;
+      float: right;
+      text-align: center;
+      font-size: 18px;
+}
+
+.quantity{
+      width: 30%;
+      float: left;
+      margin-top: 5px;
+}
+
+.removal{
+      width: 30%;
+      float: right;
+      margin-top: 5px;
+}
+
+.removeButton{
+      height: 38px;
+      width: 150px;
+      border: none;
+      border-radius: 8px;
+      background-color: #f55a51;
+      color: white;
+}
+
+.removeButton:hover{
+      cursor: pointer;
+      background-color: #f4473e;
+}
+    
+.value-button {
+      display: inline-block;
+      border: 1px solid #dad873;
+      width: 35px;
+      height: 20px;
+      text-align: center;
+      padding: 8px 0;
+      background: #dad873;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+}
+    
+.value-button:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+}
+    
+form.decrease {
+      margin-right: -4px;
+      border-radius: 8px 0 0 8px;
+}
+    
+form.increase {
+      margin-left: -4px;
+      border-radius: 0 8px 8px 0;
+}        
+
+input.number {
+      text-align: center;
+      border: none;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      margin: 0px;
+      width: 40px;
+      height: 35px;
+}
+    
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+.priceDetails{
+      margin-right: 10%;
+      margin-left: 20%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+}
+
+.cartDetails{
+      margin-top: 10px;
+}
+
+.CartSeparator2{
+      margin-top: 10px;
+      width: 60%;
+      animation: loading1;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+}
+
+@keyframes loading1{
+      0% {width: 0%;}
+      100%{width: 60%;}
+}
+
+.CartButton{
+      margin-top: 60px;
+      border: none;
+      width: 100%;
+      height: 50px;
+      background-color: #f55a51;
+      color: white;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+}
+
+.CartButton:hover{
+      cursor: pointer;
+      background-color: #f4473e;
+}

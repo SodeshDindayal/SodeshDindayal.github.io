@@ -1,0 +1,42 @@
+.right-nav{
+      padding-top: 50px;
+      padding-left: 100px;
+      flex-wrap: wrap;
+}
+
+.nav-link{
+      display: flex;
+      list-style-type: none;
+      animation: rightnav;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+}
+
+
+@keyframes rightnav{
+      0% {transform: translateX(100%);}
+      100% {transform: translateX(0);}
+}
+  
+.nav-link a{
+      margin: 10px;
+      color: rgb(32, 32, 32);
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: Segoe UI;
+}
+  
+.nav-link a:hover {
+      color: #309975;
+}
+  
+.nav-link a.active{
+      background-color: #dad873;
+      color: black;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border-radius: 10px;
+}

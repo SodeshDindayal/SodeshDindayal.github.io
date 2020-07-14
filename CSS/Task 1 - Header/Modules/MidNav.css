@@ -1,0 +1,26 @@
+.mid-nav{
+      flex-wrap: wrap;
+      padding-top: 25px;
+      padding-left: 10px;
+      color: rgb(32, 32, 32);
+      animation: midnav;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      text-align: center;
+}
+  
+@keyframes midnav{
+      0% {transform: translateY(-110px);}
+      100% {transform: translateY(0);}
+}
+  
+.mid-nav .logo-main{
+      font-family: 'Leelawadee Regular';
+      font-size: 38px;
+}
+  
+.mid-nav .logo-sub{
+      font-family: 'Gadugi Regular';
+      font-size: 14px;
+}
+  

@@ -1,0 +1,112 @@
+.carousel{
+      margin-top: 120px;
+      width: 98%;
+      height: 420px;
+      margin-left: 1%;
+      animation: menu;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+}
+
+.carouselRow{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+}
+
+.carouselColumn{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+      margin: 0;
+      padding: 0;
+      height: 420px;
+}
+
+@keyframes menu{
+      0% {opacity: 0%; }
+      25%{opacity: 25%;}
+      50%{opacity: 50%;}
+      75%{opacity: 75%;}
+      100% {opacity: 100%;}
+}
+
+.carouselimages{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      animation: ease-in-out;
+}
+
+.Innercontainer{
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+}
+
+.imageslides{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      top: 0;
+}
+
+.imagecontainers{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      position: relative;
+      height: 100%;
+      transition: transform 250ems ease-in;
+}
+
+.carouselbutton{
+      opacity: 50%;
+      position: absolute;
+      top: 45%;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      z-index: 1;
+      width: 40px;
+}
+
+.carouselbutton :hover{
+      opacity: 50%;
+}
+
+.carouselbutton img{
+      width: 20px;
+}
+
+.carouselbutton--left{
+      left:  10px;
+}
+
+.carouselbutton--right{
+      right: 10px;
+}
+
+.carouselnav{
+      z-index: 5;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+}
+
+.carouselindicator{
+      border: 0;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      background: rgb(204, 205, 206);
+      margin: 0 2px;
+}
+
+.carouselindicator.current-slide{
+      background: rgb(71, 71, 71);
+}

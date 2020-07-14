@@ -1,0 +1,185 @@
+.cardcontainerFeatured{
+      margin-top: 140px;
+      width: 78%;
+      margin-left: 20%;
+      border: #d4e9e8;
+      border-style: solid;
+      border-width: 1px;
+}
+
+.cardcontainerFeatured2{
+      margin-top: 50px;
+      width: 78%;
+      margin-left: 20%;
+      border: #d4e9e8;
+      border-style: solid;
+      border-width: 1px;
+}
+
+.cardcontainerTitle{
+      font-size: 25px;
+      font-family: Segoe UI;
+      padding: 15px;
+      letter-spacing: 2px;
+}
+
+.flex-container{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.card {
+      background-color: #f1f1f1;
+      margin-left: 1.5%;
+      margin-top: 30px;
+      flex-basis: content;
+      font-family: 'Segoe UI';
+}
+
+.shoeBackground{
+      width: 100%;
+      position: relative;
+      box-shadow: none;
+      height: 153px;
+      background-color: #e3f6f5;
+      border-bottom: 1px solid #dadada;
+}
+
+.nike {
+      position: absolute;
+      font-size: 6rem;
+      top: 15%;
+      left: 3%;
+      text-transform: uppercase;
+      line-height: .9;
+      color: #272643;
+      opacity: 10%;
+  }
+
+.logo {
+      position: absolute;
+      width: 60px;
+      top: 10px;
+      left: 10px;
+}
+
+.shoe {
+      position: absolute;
+      transition: .5s;
+      width: 100%;
+      right: 2%;
+}
+
+.info{
+      padding: 20px;
+      background-color: #f8f8f8;
+      z-index: 1;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #e3f6f5;
+}
+
+.cardTitle, .big{
+      font-size: 1.3rem;
+      margin-right: 10px;
+      color: #333;
+      line-height: 1;
+      padding-bottom: 10px;
+}
+
+.cardTitle .new{
+      background-color: #dad873;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 10px;
+      transition: .5s;
+      font-size: .9rem;
+}
+
+.shoeName, .small{
+      font-weight: 500;
+    color: #444;
+    margin-top: 3px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.buy-price {
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.buy {
+      padding: .6rem .5rem;
+      font-size: 0.7rem;
+      background-color: #272643;
+      text-decoration: none;
+      color: #e3f6f5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      transition: .5s;
+}
+
+.buy-btn{
+      padding-top: 5px;
+}
+
+.buy-btn :hover{
+      background: linear-gradient(to left, #272643, #dad873);
+      opacity: 50%;
+      transition: 1s;
+}
+
+.buy i {
+      margin-right: 2px;
+}
+
+.fa, .fas {
+      font-weight: 900;
+}
+
+.price {
+      color: #333;
+      display: flex;
+      align-items: flex-start;
+}
+
+.price i {
+      font-size: .9rem;
+      margin-right: 1px;
+      padding-top: 6px;
+}
+
+.price h1 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1;
+      padding-top: 10px;
+}
+
+hr{
+      margin-top: 40px;
+      margin-left: 15%;
+      width: 70%;
+      height: 2px;
+      background-color: #dad873;
+      border: none;
+}
+
+.hr2{
+      margin-top: 40px;
+      margin-left: 35%;
+      justify-content: center;
+      margin-bottom: 40px;
+      width: 50%;
+      height: 2px;
+      background-color: #dad873;
+      border: none;
+}
